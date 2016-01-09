@@ -16,6 +16,12 @@ object HelloWorld {
     varSize = varSize + 1;
 //    valSize = valSize + 1;
 
+    /*
+    Type inference
+     */
+    val members = 10;
+    println(members.getClass())
+
 
   }
 
