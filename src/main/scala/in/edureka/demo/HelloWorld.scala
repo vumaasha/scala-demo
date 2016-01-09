@@ -32,6 +32,26 @@ object HelloWorld {
     }
     println(exp)
 
+    /*
+    Lazy values
+     */
+
+    val normalVal = {
+      println("---- Initializing normal value ---");
+      "normal"
+    }
+
+    lazy val lazyVal = {
+      println("---- Initializing lazy value ---");
+      "lazy"
+    }
+
+    println("Accessing normal value");
+    println(normalVal);
+
+    println("Accessing lazy value");
+    println(lazyVal)
+
 
   }
 
