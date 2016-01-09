@@ -22,6 +22,16 @@ object HelloWorld {
     val members = 10;
     println(members.getClass())
 
+    /*
+    Expression everywhere
+     */
+    val exp = {
+      val a = 10;
+      val b = 20;
+      a+b;
+    }
+    println(exp)
+
 
   }
 
