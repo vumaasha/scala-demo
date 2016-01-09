@@ -6,6 +6,17 @@ package in.edureka.demo
 object HelloWorld {
   def main(args: Array[String]) {
     println("Hello world");
+
+    /*
+    val VS var
+     */
+    val valSize:Int = 10;
+    var varSize:Int = 10;
+
+    varSize = varSize + 1;
+//    valSize = valSize + 1;
+
+
   }
 
 }
